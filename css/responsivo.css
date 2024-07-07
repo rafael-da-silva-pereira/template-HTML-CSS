@@ -1,0 +1,79 @@
+@media screen and (max-width:1000px) {
+    .navbar {
+        position: relative;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .logo {
+        margin: 0;
+        text-align: center;
+    }
+
+    .header {
+        padding-top: 50px;
+    }
+
+    .head-line {
+        flex: 100%;
+        margin: 2%;
+        text-align: center;
+    }
+
+    .head-line p {
+        text-align: center;
+    }
+
+    .img-headLine {
+        flex: 100%;
+        margin: 2%;
+        text-align: center;
+    }
+
+    .head-line h3 {
+        font-size: medium;
+    }
+
+    .whatsapp {
+        display: none;
+    }
+
+    .cards {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:500px) {
+    .menu-secundario {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 25%;
+        font-size: 13;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .menu-secundario {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin-left: 10%;
+        width: 140px;
+        font-size: 13;
+    }
+
+    .header .img-headLine {
+        display: none;
+
+    }
+
+    section {
+        display: inline-block;
+        margin: 2%;
+        padding: 5%;
+        text-align: center;
+        justify-content: center;
+    }
+}
